@@ -7,7 +7,6 @@ h1{
 	border-bottom: 1px solid #D97ABF;
 	padding-bottom: 7px;
 	width: 96.68%;
-	min-width: 190px;
 	font-size: 25px;
 	margin: auto;
 	text-align: center;
@@ -25,19 +24,15 @@ p::first-letter{
 }
 .galle{
     display: flex;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
 }
-
-/*.clr{
-	clear:both;
-}*/
 
 img{
 	width: 30%;
 	margin: 1.66%;
 }
 
-@media  (max-width: 600px) {
+@media  (max-width : 600px) {
 	h1{
 		font-size: 20px;
 	}
@@ -46,7 +41,7 @@ img{
 	}
 }
 
-@media  (max-width: 300px) {
+@media  (max-width : 300px) {
 	img{
 		width: 96.68%;
 	}
